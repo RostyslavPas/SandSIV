@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
-public class CJM {
+public class _CJM {
 
     String pageCJM = "https://gcp-st-activate.sandsiv.com/feedback/customer-journey";
 

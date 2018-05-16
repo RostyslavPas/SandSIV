@@ -18,7 +18,7 @@ public class Test_1_Create_CJM {
 
         //open tab customer journey map
 
-        CJM cjm = new CJM();
+        _CJM cjm = new _CJM();
         open(cjm.pageCJM);
             sleep(5000);
 
