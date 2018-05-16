@@ -11,7 +11,7 @@ public class Test_2_Read_CJM {
     @Test
     public void test_2(){
 
-        //autorization page st-activate.sandsiv.com login password
+        //login page https://st-activate.sandsiv.com login password
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
@@ -28,15 +28,18 @@ public class Test_2_Read_CJM {
             sleep(2000);
         cjm.btn_add_customer_journey.click();
         Date date = new Date();
-        SimpleDateFormat format = new SimpleDateFormat(cjm.dateFormat);
+        SimpleDateFormat format = new SimpleDateFormat(
+                cjm.dateFormat);
         String cjm_name_create = cjm.nameCJM +
                 format.format(date);
 
-        cjm.nameCjmSelector.setValue(cjm_name_create);
+        cjm.nameCjmSelector.setValue(
+                cjm_name_create);
         cjm.cjmSaveBtn.click();
 
         //display customer journey map after created
 
-        cjm.listCjm.get(0).shouldHave(text(cjm_name_create));
+        cjm.listCjm.get(0).shouldHave(
+                text(cjm_name_create));
     }
 }

@@ -12,7 +12,7 @@ public class Test_3_Update_CJM {
     @Test
     public void test_3(){
 
-        //autorization page st-activate.sandsiv.com login password
+        //login page https://st-activate.sandsiv.com login password
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
@@ -29,23 +29,29 @@ public class Test_3_Update_CJM {
             sleep(2000);
         cjm.btn_add_customer_journey.click();
         Date date = new Date();
-        SimpleDateFormat format = new SimpleDateFormat(cjm.dateFormat);
+        SimpleDateFormat format = new SimpleDateFormat(
+                cjm.dateFormat);
         String cjm_name_create = cjm.nameCJM +
                 format.format(date);
 
-        cjm.nameCjmSelector.setValue(cjm_name_create);
+        cjm.nameCjmSelector.setValue(
+                cjm_name_create);
         cjm.cjmSaveBtn.click();
 
         //display customer journey map after created
 
-        cjm.listCjm.get(0).shouldHave(text(cjm_name_create));
+        cjm.listCjm.get(0).shouldHave(
+                text(cjm_name_create));
 
         //open customer journey map and update cjm
 
         cjm.listCjm.get(0).click();
-        String cjm_name_update = cjm.text_cjmUpdate + format.format(date);
-        cjm.nameCjmSelector.setValue(cjm_name_update);
+        String cjm_name_update =
+                cjm.text_cjmUpdate + format.format(date);
+        cjm.nameCjmSelector.setValue(
+                cjm_name_update);
         cjm.cjmSaveBtn.click();
-        cjm.alertSelector.shouldHave(text(cjm.update_cjm_text_alert));
+        cjm.alertSelector.shouldHave(
+                text(cjm.update_cjm_text_alert));
     }
 }
