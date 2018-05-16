@@ -11,7 +11,7 @@ public class Test_1_Create_CJM {
     @Test
     public void test_1(){
 
-        //login page https://st-activate.sandsiv.com login password
+        //login page https://gcp-st-activate.sandsiv.com login password
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();

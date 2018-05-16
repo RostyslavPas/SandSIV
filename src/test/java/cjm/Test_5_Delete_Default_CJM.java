@@ -10,7 +10,7 @@ public class Test_5_Delete_Default_CJM {
     @Test
     public void test5(){
 
-        //login page https://st-activate.sandsiv.com login password
+        //login page https://gcp-st-activate.sandsiv.com login password
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
