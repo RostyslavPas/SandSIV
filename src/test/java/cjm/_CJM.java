@@ -31,4 +31,19 @@ public class _CJM {
     ElementsCollection alertsSelectors = $$(".notification-element.notification-text>span");
     SelenideElement cjmDefaultBtnDelete = $(".delete-button-project-modal.pointer.badge.pull-right.hidden");
 
+
+    //Touchpoints elements
+
+    String add_touchpoint_text_alert = "Touchpoint was added successfully!";
+    ElementsCollection addTouchpointBtn = $$(".btn.btn-default.pull-right");
+    SelenideElement modalTitleAddTouchPoint = $(".modal-title");
+    String title_touch_point = "Add Touchpoint";
+    String defaultToucpointName = "new_touchpoint_cjm:: ";
+    SelenideElement touchpointNameSelector = $("#touchpoint_name");
+    SelenideElement touchPointDropdownCjm = $(".Select-placeholder");
+    SelenideElement touchPointSelectCjm = $(By.xpath(".//*[@id='react-select-3--option-0']"));
+    SelenideElement dashboardLink = $("#touchpoint_url");
+    String touch_poit_url = "http://rostislav-pas.besaba.com/";
+    SelenideElement addBtn = $(".btn.btn-primary");
+
 }
