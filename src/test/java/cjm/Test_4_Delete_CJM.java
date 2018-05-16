@@ -48,7 +48,7 @@ public class Test_4_Delete_CJM {
         cjm.cjmSaveBtn.click();
         cjm.alertSelector.shouldHave(text(cjm.update_cjm_text_alert));
 
-        /**delete customer journey map*/
+        //delete customer journey map
 
         cjm.cjmDeleteBtn.get(0).click();
             switchTo().alert().accept();
