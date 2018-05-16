@@ -31,7 +31,8 @@ public class Test_1_Create_CJM {
         SimpleDateFormat format = new SimpleDateFormat(
                 cjm.dateFormat);
         String cjm_name_create = cjm.nameCJM +
-                format.format(date);
+                format.format(
+                        date);
 
         cjm.nameCjmSelector.setValue(
                 cjm_name_create);

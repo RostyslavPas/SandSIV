@@ -32,7 +32,8 @@ public class Test_4_Delete_CJM {
         SimpleDateFormat format = new SimpleDateFormat(
                 cjm.dateFormat);
         String cjm_name_create = cjm.nameCJM +
-                format.format(date);
+                format.format(
+                        date);
 
         cjm.nameCjmSelector.setValue(
                 cjm_name_create);
@@ -47,7 +48,8 @@ public class Test_4_Delete_CJM {
 
         cjm.listCjm.get(0).click();
         String cjm_name_update =
-                cjm.text_cjmUpdate + format.format(date);
+                cjm.text_cjmUpdate + format.format(
+                        date);
         cjm.nameCjmSelector.setValue(
                 cjm_name_update);
         cjm.cjmSaveBtn.click();
