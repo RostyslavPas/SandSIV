@@ -29,5 +29,6 @@ public class _CJM {
     ElementsCollection cjmDeleteBtn = $$(".delete-button-project-modal.pointer.badge.pull-right");
     String delete_cjm_text_alert = "Customer Journey was removed successfully!";
     ElementsCollection alertsSelectors = $$(".notification-element.notification-text>span");
+    SelenideElement cjmDefaultBtnDelete = $(".delete-button-project-modal.pointer.badge.pull-right.hidden");
 
 }
