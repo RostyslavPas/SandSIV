@@ -1,10 +1,7 @@
 package cjm;
 
-import com.codeborne.selenide.SelenideElement;
 import enterprise.Enterprise;
 import org.testng.annotations.Test;
-
-import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
