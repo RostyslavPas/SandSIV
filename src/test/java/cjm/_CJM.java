@@ -35,15 +35,28 @@ public class _CJM {
     //Touchpoints elements
 
     String add_touchpoint_text_alert = "Touchpoint was added successfully!";
-    ElementsCollection addTouchpointBtn = $$(".btn.btn-default.pull-right");
+    String update_touchpoint_text_alert = "Touchpoint was updated successfully!";
+
     SelenideElement modalTitleAddTouchPoint = $(".modal-title");
     String title_touch_point = "Add Touchpoint";
-    String defaultToucpointName = "new_touchpoint_cjm:: ";
+    String defaultToucpointName = "new_touchpoint_cjm::";
     SelenideElement touchpointNameSelector = $("#touchpoint_name");
     SelenideElement touchPointDropdownCjm = $(".Select-placeholder");
     SelenideElement touchPointSelectCjm = $(By.xpath(".//*[@id='react-select-3--option-0']"));
     SelenideElement dashboardLink = $("#touchpoint_url");
     String touch_poit_url = "http://rostislav-pas.besaba.com/";
+
+    ElementsCollection listTouchPoint = $$(".toggle-panel-title");
+    ElementsCollection settingTouchPoint = $$(".touchpoint-actions-setting.btn.btn-default");
+    String edit_touch_point_text = "Edit Touchpoint";
+
+    ElementsCollection addTouchpointBtn = $$(".btn.btn-default.pull-right");
     SelenideElement addBtn = $(".btn.btn-primary");
+    ElementsCollection touchPointBtnSave = $$(".btn.btn-primary");
+    SelenideElement touchPointBtnCancel = $(".btn.btn-default");
+    SelenideElement touchPointBtnRemove = $(".btn.btn-danger");
+
+
+    String new_name_touchpoint_after_update = "new_name_touchpoint_after_update";
 
 }
