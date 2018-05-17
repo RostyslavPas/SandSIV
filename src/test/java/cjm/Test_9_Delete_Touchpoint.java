@@ -2,13 +2,10 @@ package cjm;
 
 import com.codeborne.selenide.SelenideElement;
 import enterprise.Enterprise;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-
 import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
@@ -81,10 +78,13 @@ public class Test_9_Delete_Touchpoint {
 
         //delete TouchPoint
 
+        cjm.touchPointBtnRemove.click();
+            sleep(3000);
+            switchTo().alert().accept();
+            sleep(3000);
 
-
-
-
+        cjm.listTouchPoint.findBy(
+                text(touch_point_text_name)).shouldNot(visible);
     }
 
 }
