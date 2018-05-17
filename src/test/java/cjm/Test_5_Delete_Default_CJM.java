@@ -1,6 +1,7 @@
 package cjm;
 
 import enterprise.Enterprise;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
@@ -27,4 +28,5 @@ public class Test_5_Delete_Default_CJM {
         sleep(2000);
         cjm.cjmDefaultBtnDelete.shouldNotBe(visible);
     }
+
 }

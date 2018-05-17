@@ -1,6 +1,7 @@
 package cjm;
 
 import enterprise.Enterprise;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -52,4 +53,5 @@ public class Test_6_Create_Touchpoint {
         cjm.alertSelector.shouldHave(
                 text(cjm.add_touchpoint_text_alert));
     }
+
 }

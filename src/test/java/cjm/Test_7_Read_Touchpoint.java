@@ -1,6 +1,7 @@
 package cjm;
 
 import enterprise.Enterprise;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -78,4 +79,5 @@ public class Test_7_Read_Touchpoint {
         cjm.touchPointBtnRemove.shouldBe(visible);
         cjm.addBtn.shouldBe(visible);
     }
+
 }

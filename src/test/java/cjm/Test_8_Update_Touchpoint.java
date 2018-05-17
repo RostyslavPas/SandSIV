@@ -1,6 +1,7 @@
 package cjm;
 
 import enterprise.Enterprise;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -8,8 +9,8 @@ import java.util.Date;
 import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.sleep;
+import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.close;
 
 public class Test_8_Update_Touchpoint {
 
@@ -85,4 +86,5 @@ public class Test_8_Update_Touchpoint {
                 text(cjm.update_touchpoint_text_alert));
 
     }
+
 }

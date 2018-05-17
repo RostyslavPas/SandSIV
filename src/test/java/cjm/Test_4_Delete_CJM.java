@@ -1,6 +1,7 @@
 package cjm;
 
 import enterprise.Enterprise;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -63,5 +64,6 @@ public class Test_4_Delete_CJM {
         cjm.alertsSelectors.get(1).shouldHave(
                 text(cjm.delete_cjm_text_alert));
     }
+
 }
 

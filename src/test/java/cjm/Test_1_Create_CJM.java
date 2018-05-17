@@ -1,6 +1,7 @@
 package cjm;
 
 import enterprise.Enterprise;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -38,4 +39,5 @@ public class Test_1_Create_CJM {
                 cjm_name_create);
         cjm.cjmSaveBtn.click();
     }
+
 }
