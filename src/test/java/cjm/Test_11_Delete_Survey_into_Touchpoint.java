@@ -11,10 +11,10 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.sleep;
 
-public class Test_10_Add_Survey_to_Touchpoint {
+public class Test_11_Delete_Survey_into_Touchpoint {
 
     @Test
-    public void test10(){
+    public void test11(){
 
         //login page https://gcp-st-activate.sandsiv.com login password
 
@@ -80,6 +80,15 @@ public class Test_10_Add_Survey_to_Touchpoint {
 
         cjm.alertSelector.shouldHave(
                 text(cjm.add_survey_into_touchpoint_text_alert));
+
+        //delete survey into touchpoint
+
+        cjm.assignSurveys.get(i-2).click();
+        sleep(3000);
+        cjm.deleteSurveyIntoTouchpoint.click();
+        cjm.saveSurveyIntoTouchpointBtn.click();
+
+        cjm.alertSelector.shouldHave(
+                text(cjm.delete_survey_into_touchpoint_text_alert));
     }
 }
-

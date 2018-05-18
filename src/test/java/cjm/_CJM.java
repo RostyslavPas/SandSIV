@@ -37,6 +37,9 @@ public class _CJM {
     String add_touchpoint_text_alert = "Touchpoint was added successfully!";
     String update_touchpoint_text_alert = "Touchpoint was updated successfully!";
 
+    String add_survey_into_touchpoint_text_alert = "Surveys in touchpoint successfully updated";
+    String delete_survey_into_touchpoint_text_alert= "Surveys from touchpoint successfully deleted";
+
     SelenideElement modalTitleAddTouchPoint = $(".modal-title");
     String title_touch_point = "Add Touchpoint";
     String defaultToucpointName = "new_touchpoint_cjm::";
@@ -48,6 +51,8 @@ public class _CJM {
 
     ElementsCollection listTouchPoint = $$(".toggle-panel-title");
     ElementsCollection settingTouchPoint = $$(".touchpoint-actions-setting.btn.btn-default");
+
+    ElementsCollection assignSurveys = $$(".touchpoint-actions-add.btn.btn-default");
     String edit_touch_point_text = "Edit Touchpoint";
 
     ElementsCollection addTouchpointBtn = $$(".btn.btn-default.pull-right");
@@ -55,8 +60,17 @@ public class _CJM {
     ElementsCollection touchPointBtnSave = $$(".btn.btn-primary");
     SelenideElement touchPointBtnCancel = $(".btn.btn-default");
     SelenideElement touchPointBtnRemove = $(".btn.btn-danger");
+    SelenideElement saveSurveyIntoTouchpointBtn = $(By.xpath("html/body/div[6]/div[2]/div/div/div[3]/div/button[2]"));
 
 
     String new_name_touchpoint_after_update = "new_name_touchpoint_after_update";
+
+    String add_survey_into_touchpoint = "Add Survey into Touchpoint";
+    SelenideElement selectPlaceholderAddSurvey = $(".Select-placeholder");
+    SelenideElement selectPlaceholderAddSecondSurvey = $(".Select-arrow-zone");
+
+    SelenideElement selectSurvey = $("#react-select-5--option-0");
+    SelenideElement selectSecondSurvey = $("#react-select-11--option-1");
+    SelenideElement deleteSurveyIntoTouchpoint = $(".Select-value-icon");
 
 }
