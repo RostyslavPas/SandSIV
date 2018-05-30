@@ -53,6 +53,8 @@ public class _CJM {
     ElementsCollection settingTouchPoint = $$(".touchpoint-actions-setting.btn.btn-default");
 
     ElementsCollection assignSurveys = $$(".touchpoint-actions-add.btn.btn-default");
+
+    ElementsCollection dboardLink = $$(".btn.btn-default.touchpoint-actions-link");
     String edit_touch_point_text = "Edit Touchpoint";
 
     ElementsCollection addTouchpointBtn = $$(".btn.btn-default.pull-right");
@@ -72,5 +74,7 @@ public class _CJM {
     SelenideElement selectSurvey = $("#react-select-5--option-0");
     SelenideElement selectSecondSurvey = $("#react-select-11--option-1");
     SelenideElement deleteSurveyIntoTouchpoint = $(".Select-value-icon");
+
+    String textTitle = "Gallery - List of product company";
 
 }

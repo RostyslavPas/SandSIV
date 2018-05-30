@@ -10,9 +10,8 @@ import java.util.Date;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.$$;
-import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.sleep;
+import static com.codeborne.selenide.Selenide.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Test_12_Dashboard_link_Touchpoint {
 
@@ -70,13 +69,10 @@ public class Test_12_Dashboard_link_Touchpoint {
 
         int i = list.size();
 
-        $$("").get(i-2).click();
+        cjm.dboardLink.get(i-2).click();
         sleep(3000);
 
-
-
-
-
-
+        System.out.println(title());
+        assertEquals(cjm.textTitle, title());
     }
 }
