@@ -3,11 +3,9 @@ package cjm;
 import com.codeborne.selenide.SelenideElement;
 import enterprise.Enterprise;
 import org.testng.annotations.Test;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
