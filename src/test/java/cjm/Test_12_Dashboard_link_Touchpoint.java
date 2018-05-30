@@ -63,6 +63,7 @@ public class Test_12_Dashboard_link_Touchpoint {
         ArrayList<SelenideElement> list =
                 new ArrayList<com.codeborne.selenide.SelenideElement>(
                         cjm.listTouchPoint);
+
         System.out.println(list.size());
 
         int i = list.size();
