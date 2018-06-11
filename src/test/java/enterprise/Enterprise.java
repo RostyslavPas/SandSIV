@@ -17,11 +17,11 @@ public class Enterprise {
         open(pageSt);
 
         SelenideElement loginUserSt = $("#username");
-        String nameSt = "rostislav.pas@sandsiv.com";
+        String nameSt = "login";
         loginUserSt.setValue(nameSt);
 
         SelenideElement passwordUserSt = $("#password");
-        String passwordSt = "Ros_0632059555_sandsiv";
+        String passwordSt = "password";
         passwordUserSt.setValue(passwordSt);
 
         SelenideElement btnLoginSt = $("#_submit");
