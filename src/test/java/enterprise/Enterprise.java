@@ -13,7 +13,7 @@ public class Enterprise {
 
     public void st_activate_login(){
 
-        String pageSt = "https://gcp-st-activate.sandsiv.com/login";
+        String pageSt = "enterprise";
         open(pageSt);
 
         SelenideElement loginUserSt = $("#username");
