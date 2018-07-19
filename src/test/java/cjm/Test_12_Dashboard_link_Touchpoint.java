@@ -76,9 +76,7 @@ public class Test_12_Dashboard_link_Touchpoint {
         System.out.println(title());
         assertEquals(cjm.textTitle, title());
 
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

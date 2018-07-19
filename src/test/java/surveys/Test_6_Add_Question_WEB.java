@@ -14,9 +14,7 @@ public class Test_6_Add_Question_WEB {
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

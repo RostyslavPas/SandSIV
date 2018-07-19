@@ -14,9 +14,7 @@ public class Test_21_Search_by_Address {
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

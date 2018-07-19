@@ -80,9 +80,7 @@ public class Test_7_Read_Touchpoint {
         cjm.touchPointBtnRemove.shouldBe(visible);
         cjm.addBtn.shouldBe(visible);
 
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

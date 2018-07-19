@@ -14,9 +14,7 @@ public class Test_28_Change_Status_DIGI {
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

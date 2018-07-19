@@ -14,9 +14,7 @@ public class Test_31_Reordering_Questions {
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

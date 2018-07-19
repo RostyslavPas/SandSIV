@@ -42,16 +42,6 @@ public class Test_1_Create_Survey {
 
 
 
-
-
-
-
-
-
-    }
-    @After
-    public void clear_browser_session(){
-
         clearBrowserCookies();
     }
 }

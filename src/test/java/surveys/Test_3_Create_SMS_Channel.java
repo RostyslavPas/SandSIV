@@ -14,9 +14,7 @@ public class Test_3_Create_SMS_Channel {
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

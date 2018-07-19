@@ -58,9 +58,7 @@ public class Test_3_Update_CJM {
         cjm.alertSelector.shouldHave(
                 text(cjm.update_cjm_text_alert));
 
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

@@ -45,9 +45,7 @@ public class Test_2_Read_CJM {
         cjm.listCjm.get(0).shouldHave(
                 text(cjm_name_create));
 
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

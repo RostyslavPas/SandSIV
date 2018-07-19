@@ -14,9 +14,6 @@ public class Test_29_Response_Rate {
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
-    }
-    @After
-    public void clear_browser_session(){
 
         clearBrowserCookies();
     }

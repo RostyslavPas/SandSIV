@@ -14,9 +14,8 @@ public class Test_8_Add_Question_IVR {
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
-    }
-    @After
-    public void clear_browser_session(){
+
+
 
         clearBrowserCookies();
     }

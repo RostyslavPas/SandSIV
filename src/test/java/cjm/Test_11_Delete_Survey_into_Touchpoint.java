@@ -94,9 +94,7 @@ public class Test_11_Delete_Survey_into_Touchpoint {
         cjm.alertSelector.shouldHave(
                 text(cjm.delete_survey_into_touchpoint_text_alert));
 
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

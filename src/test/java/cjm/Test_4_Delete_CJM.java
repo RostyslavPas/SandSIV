@@ -64,9 +64,7 @@ public class Test_4_Delete_CJM {
             switchTo().alert().accept();
         cjm.alertsSelectors.get(1).shouldHave(
                 text(cjm.delete_cjm_text_alert));
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

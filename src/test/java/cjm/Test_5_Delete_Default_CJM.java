@@ -29,9 +29,7 @@ public class Test_5_Delete_Default_CJM {
         sleep(2000);
         cjm.cjmDefaultBtnDelete.shouldNotBe(visible);
 
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

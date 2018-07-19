@@ -16,9 +16,6 @@ public class Test_2_Create_WEB_Channel {
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
 
-    }
-    @After
-    public void clear_browser_session(){
 
         clearBrowserCookies();
     }

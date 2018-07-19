@@ -84,9 +84,7 @@ public class Test_10_Add_Survey_to_Touchpoint {
         cjm.alertSelector.shouldHave(
                 text(cjm.add_survey_into_touchpoint_text_alert));
 
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

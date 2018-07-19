@@ -14,9 +14,7 @@ public class Test_14_Delete_QuestionText_WEB {
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

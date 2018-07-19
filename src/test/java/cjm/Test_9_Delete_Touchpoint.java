@@ -88,9 +88,7 @@ public class Test_9_Delete_Touchpoint {
         cjm.listTouchPoint.findBy(
                 text(touch_point_text_name)).shouldNot(visible);
 
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

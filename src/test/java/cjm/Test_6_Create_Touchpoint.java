@@ -54,9 +54,7 @@ public class Test_6_Create_Touchpoint {
         cjm.alertSelector.shouldHave(
                 text(cjm.add_touchpoint_text_alert));
 
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }

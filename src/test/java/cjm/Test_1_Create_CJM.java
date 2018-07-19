@@ -40,9 +40,7 @@ public class Test_1_Create_CJM {
                 cjm_name_create);
         cjm.cjmSaveBtn.click();
 
-    }
-    @After
-    public void clear_browser_session(){
+
 
         clearBrowserCookies();
     }
