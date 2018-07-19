@@ -3,13 +3,14 @@ package surveys;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import enterprise.Enterprise;
+import org.junit.After;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Condition.present;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
+import static com.codeborne.selenide.Selenide.*;
 
 public class Test_1_Create_Survey {
     @Test
@@ -45,5 +46,12 @@ public class Test_1_Create_Survey {
 
 
 
+
+
+    }
+    @After
+    public void clear_browser_session(){
+
+        clearBrowserCookies();
     }
 }

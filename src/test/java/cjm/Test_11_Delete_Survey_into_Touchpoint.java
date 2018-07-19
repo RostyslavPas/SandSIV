@@ -2,6 +2,8 @@ package cjm;
 
 import com.codeborne.selenide.SelenideElement;
 import enterprise.Enterprise;
+import org.junit.After;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -91,6 +93,10 @@ public class Test_11_Delete_Survey_into_Touchpoint {
 
         cjm.alertSelector.shouldHave(
                 text(cjm.delete_survey_into_touchpoint_text_alert));
+
+    }
+    @After
+    public void clear_browser_session(){
 
         clearBrowserCookies();
     }

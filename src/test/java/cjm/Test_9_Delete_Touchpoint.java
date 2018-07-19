@@ -2,6 +2,8 @@ package cjm;
 
 import com.codeborne.selenide.SelenideElement;
 import enterprise.Enterprise;
+import org.junit.After;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -85,6 +87,10 @@ public class Test_9_Delete_Touchpoint {
 
         cjm.listTouchPoint.findBy(
                 text(touch_point_text_name)).shouldNot(visible);
+
+    }
+    @After
+    public void clear_browser_session(){
 
         clearBrowserCookies();
     }

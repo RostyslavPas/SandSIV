@@ -1,7 +1,11 @@
 package surveys;
 
 import enterprise.Enterprise;
+import org.junit.After;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
+
+import static com.codeborne.selenide.Selenide.clearBrowserCookies;
 
 public class Test_4_Create_IVR_Channel {
     @Test
@@ -10,5 +14,10 @@ public class Test_4_Create_IVR_Channel {
 
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
+    }
+    @After
+    public void clear_browser_session(){
+
+        clearBrowserCookies();
     }
 }

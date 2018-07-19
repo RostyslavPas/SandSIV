@@ -1,6 +1,7 @@
 package cjm;
 
 import enterprise.Enterprise;
+import org.junit.After;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
@@ -84,9 +85,11 @@ public class Test_8_Update_Touchpoint {
         cjm.touchPointBtnSave.get(1).click();
         cjm.alertSelector.shouldHave(
                 text(cjm.update_touchpoint_text_alert));
+    }
+    @After
+    public void clear_browser_session(){
 
         clearBrowserCookies();
-
     }
 
 }

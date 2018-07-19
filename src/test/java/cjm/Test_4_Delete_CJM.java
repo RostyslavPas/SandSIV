@@ -1,6 +1,7 @@
 package cjm;
 
 import enterprise.Enterprise;
+import org.junit.After;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
@@ -63,6 +64,10 @@ public class Test_4_Delete_CJM {
             switchTo().alert().accept();
         cjm.alertsSelectors.get(1).shouldHave(
                 text(cjm.delete_cjm_text_alert));
+    }
+    @After
+    public void clear_browser_session(){
+
         clearBrowserCookies();
     }
 

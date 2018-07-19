@@ -1,6 +1,7 @@
 package cjm;
 
 import enterprise.Enterprise;
+import org.junit.After;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Condition.visible;
@@ -27,6 +28,10 @@ public class Test_5_Delete_Default_CJM {
         cjm.manage_customer_journey.click();
         sleep(2000);
         cjm.cjmDefaultBtnDelete.shouldNotBe(visible);
+
+    }
+    @After
+    public void clear_browser_session(){
 
         clearBrowserCookies();
     }

@@ -2,6 +2,8 @@ package cjm;
 
 import com.codeborne.selenide.SelenideElement;
 import enterprise.Enterprise;
+import org.junit.After;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -73,6 +75,10 @@ public class Test_12_Dashboard_link_Touchpoint {
 
         System.out.println(title());
         assertEquals(cjm.textTitle, title());
+
+    }
+    @After
+    public void clear_browser_session(){
 
         clearBrowserCookies();
     }

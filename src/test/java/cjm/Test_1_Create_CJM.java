@@ -1,6 +1,7 @@
 package cjm;
 
 import enterprise.Enterprise;
+import org.junit.After;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
@@ -38,6 +39,10 @@ public class Test_1_Create_CJM {
         cjm.nameCjmSelector.setValue(
                 cjm_name_create);
         cjm.cjmSaveBtn.click();
+
+    }
+    @After
+    public void clear_browser_session(){
 
         clearBrowserCookies();
     }
