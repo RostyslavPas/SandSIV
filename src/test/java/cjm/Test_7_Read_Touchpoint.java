@@ -82,7 +82,7 @@ public class Test_7_Read_Touchpoint {
 
 
 
-        clearBrowserCookies();
+        close();
     }
 
 }

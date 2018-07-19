@@ -60,7 +60,7 @@ public class Test_3_Update_CJM {
 
 
 
-        clearBrowserCookies();
+        close();
     }
 }
 

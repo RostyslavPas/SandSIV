@@ -66,7 +66,7 @@ public class Test_4_Delete_CJM {
                 text(cjm.delete_cjm_text_alert));
 
 
-        clearBrowserCookies();
+        close();
     }
 
 }

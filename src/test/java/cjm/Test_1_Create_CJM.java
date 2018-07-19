@@ -42,7 +42,7 @@ public class Test_1_Create_CJM {
 
 
 
-        clearBrowserCookies();
+        close();
     }
 
 }

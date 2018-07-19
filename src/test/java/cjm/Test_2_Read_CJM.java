@@ -47,7 +47,7 @@ public class Test_2_Read_CJM {
 
 
 
-        clearBrowserCookies();
+        close();
     }
 
 }

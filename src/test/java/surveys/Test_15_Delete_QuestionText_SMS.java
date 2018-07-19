@@ -6,6 +6,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.clearBrowserCookies;
+import static com.codeborne.selenide.Selenide.close;
 
 public class Test_15_Delete_QuestionText_SMS {
     @Test
@@ -15,6 +16,6 @@ public class Test_15_Delete_QuestionText_SMS {
         Enterprise enterprise = new Enterprise();
         enterprise.st_activate_login();
 
-        clearBrowserCookies();
+        close();
     }
 }

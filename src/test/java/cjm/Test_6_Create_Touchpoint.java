@@ -56,7 +56,7 @@ public class Test_6_Create_Touchpoint {
 
 
 
-        clearBrowserCookies();
+        close();
     }
 
 }

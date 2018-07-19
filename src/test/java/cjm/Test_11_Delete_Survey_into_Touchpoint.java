@@ -10,9 +10,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.clearBrowserCookies;
-import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.Selenide.sleep;
+import static com.codeborne.selenide.Selenide.*;
 
 public class Test_11_Delete_Survey_into_Touchpoint {
 
@@ -96,6 +94,6 @@ public class Test_11_Delete_Survey_into_Touchpoint {
 
 
 
-        clearBrowserCookies();
+        close();
     }
 }

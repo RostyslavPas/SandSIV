@@ -90,7 +90,7 @@ public class Test_9_Delete_Touchpoint {
 
 
 
-        clearBrowserCookies();
+        close();
     }
 
 }

@@ -6,6 +6,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.clearBrowserCookies;
+import static com.codeborne.selenide.Selenide.close;
 
 public class Test_12_Update_QuestionText_IVR {
     @Test
@@ -16,6 +17,6 @@ public class Test_12_Update_QuestionText_IVR {
         enterprise.st_activate_login();
 
 
-        clearBrowserCookies();
+        close();
     }
 }

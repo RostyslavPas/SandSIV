@@ -40,8 +40,7 @@ public class Test_1_Create_Survey {
             SelenideElement dialog_window = $(".modal-content");
         dialog_window.shouldBe(visible);
 
+        close();
 
-
-        clearBrowserCookies();
     }
 }

@@ -6,6 +6,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.clearBrowserCookies;
+import static com.codeborne.selenide.Selenide.close;
 
 public class Test_2_Create_WEB_Channel {
     @Test
@@ -17,6 +18,6 @@ public class Test_2_Create_WEB_Channel {
         enterprise.st_activate_login();
 
 
-        clearBrowserCookies();
+        close();
     }
 }
