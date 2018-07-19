@@ -52,6 +52,8 @@ public class Test_6_Create_Touchpoint {
         cjm.addBtn.click();
         cjm.alertSelector.shouldHave(
                 text(cjm.add_touchpoint_text_alert));
+
+        clearBrowserCookies();
     }
 
 }

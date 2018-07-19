@@ -27,6 +27,8 @@ public class Test_5_Delete_Default_CJM {
         cjm.manage_customer_journey.click();
         sleep(2000);
         cjm.cjmDefaultBtnDelete.shouldNotBe(visible);
+
+        clearBrowserCookies();
     }
 
 }

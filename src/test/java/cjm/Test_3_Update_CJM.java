@@ -56,6 +56,8 @@ public class Test_3_Update_CJM {
         cjm.cjmSaveBtn.click();
         cjm.alertSelector.shouldHave(
                 text(cjm.update_cjm_text_alert));
+
+        clearBrowserCookies();
     }
 }
 

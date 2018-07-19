@@ -38,6 +38,8 @@ public class Test_1_Create_CJM {
         cjm.nameCjmSelector.setValue(
                 cjm_name_create);
         cjm.cjmSaveBtn.click();
+
+        clearBrowserCookies();
     }
 
 }

@@ -78,6 +78,8 @@ public class Test_7_Read_Touchpoint {
         cjm.touchPointBtnCancel.shouldBe(exist);
         cjm.touchPointBtnRemove.shouldBe(visible);
         cjm.addBtn.shouldBe(visible);
+
+        clearBrowserCookies();
     }
 
 }

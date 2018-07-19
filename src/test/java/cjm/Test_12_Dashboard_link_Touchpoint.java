@@ -73,5 +73,7 @@ public class Test_12_Dashboard_link_Touchpoint {
 
         System.out.println(title());
         assertEquals(cjm.textTitle, title());
+
+        clearBrowserCookies();
     }
 }

@@ -10,6 +10,7 @@ import static com.codeborne.selenide.Selenide.$$;
 public class _CJM {
 
     String pageCJM = "https://gcp-st-activate.sandsiv.com/feedback/customer-journey";
+//    String pageCJM = "https://vchub.sandsiv.com/feedback/customer-journey";
 
     SelenideElement manage_customer_journey =
             $(".pull-left.openManageProjects.glyphicon.glyphicon-cog");

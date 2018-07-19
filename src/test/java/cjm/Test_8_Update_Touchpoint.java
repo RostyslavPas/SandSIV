@@ -85,6 +85,8 @@ public class Test_8_Update_Touchpoint {
         cjm.alertSelector.shouldHave(
                 text(cjm.update_touchpoint_text_alert));
 
+        clearBrowserCookies();
+
     }
 
 }
