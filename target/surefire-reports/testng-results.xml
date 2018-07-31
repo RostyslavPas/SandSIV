@@ -1,109 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="9" ignored="0" total="47" passed="38">
+<testng-results skipped="0" failed="12" ignored="0" total="47" passed="35">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="431019" started-at="2018-07-19T12:03:02Z" finished-at="2018-07-19T12:10:14Z">
+  <suite name="Command line suite" duration-ms="351189" started-at="2018-07-31T15:57:48Z" finished-at="2018-07-31T16:03:39Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="431019" started-at="2018-07-19T12:03:02Z" finished-at="2018-07-19T12:10:14Z">
+    <test name="Command line test" duration-ms="351189" started-at="2018-07-31T15:57:48Z" finished-at="2018-07-31T16:03:39Z">
       <class name="surveys.Test_13_Update_QuestionText_DIGI">
-        <test-method status="PASS" signature="update_questionText_digi()[pri:0, instance:surveys.Test_13_Update_QuestionText_DIGI@4439f31e]" name="update_questionText_digi" duration-ms="7591" started-at="2018-07-19T12:06:59Z" finished-at="2018-07-19T12:07:06Z">
+        <test-method status="PASS" signature="update_questionText_digi()[pri:0, instance:surveys.Test_13_Update_QuestionText_DIGI@4439f31e]" name="update_questionText_digi" duration-ms="6965" started-at="2018-07-31T16:01:41Z" finished-at="2018-07-31T16:01:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- update_questionText_digi -->
       </class> <!-- surveys.Test_13_Update_QuestionText_DIGI -->
       <class name="surveys.Test_18_Add_Multi_Question">
-        <test-method status="PASS" signature="add_multi_question()[pri:0, instance:surveys.Test_18_Add_Multi_Question@3c756e4d]" name="add_multi_question" duration-ms="7482" started-at="2018-07-19T12:05:06Z" finished-at="2018-07-19T12:05:13Z">
+        <test-method status="PASS" signature="add_multi_question()[pri:0, instance:surveys.Test_18_Add_Multi_Question@3c756e4d]" name="add_multi_question" duration-ms="7181" started-at="2018-07-31T15:59:54Z" finished-at="2018-07-31T16:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_multi_question -->
       </class> <!-- surveys.Test_18_Add_Multi_Question -->
       <class name="surveys.Test_10_Update_QuestionText_WEB">
-        <test-method status="PASS" signature="update_questionText_web()[pri:0, instance:surveys.Test_10_Update_QuestionText_WEB@402f32ff]" name="update_questionText_web" duration-ms="7523" started-at="2018-07-19T12:05:28Z" finished-at="2018-07-19T12:05:36Z">
+        <test-method status="PASS" signature="update_questionText_web()[pri:0, instance:surveys.Test_10_Update_QuestionText_WEB@402f32ff]" name="update_questionText_web" duration-ms="7303" started-at="2018-07-31T16:00:16Z" finished-at="2018-07-31T16:00:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- update_questionText_web -->
       </class> <!-- surveys.Test_10_Update_QuestionText_WEB -->
       <class name="surveys.Test_26_Change_Status_SMS">
-        <test-method status="PASS" signature="change_status_sms()[pri:0, instance:surveys.Test_26_Change_Status_SMS@5d5eef3d]" name="change_status_sms" duration-ms="7188" started-at="2018-07-19T12:07:22Z" finished-at="2018-07-19T12:07:29Z">
+        <test-method status="PASS" signature="change_status_sms()[pri:0, instance:surveys.Test_26_Change_Status_SMS@5d5eef3d]" name="change_status_sms" duration-ms="7100" started-at="2018-07-31T16:02:01Z" finished-at="2018-07-31T16:02:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- change_status_sms -->
       </class> <!-- surveys.Test_26_Change_Status_SMS -->
       <class name="surveys.Test_24_Copy_Survey">
-        <test-method status="PASS" signature="copy_survey()[pri:0, instance:surveys.Test_24_Copy_Survey@573f2bb1]" name="copy_survey" duration-ms="7187" started-at="2018-07-19T12:05:36Z" finished-at="2018-07-19T12:05:43Z">
+        <test-method status="PASS" signature="copy_survey()[pri:0, instance:surveys.Test_24_Copy_Survey@573f2bb1]" name="copy_survey" duration-ms="7211" started-at="2018-07-31T16:00:24Z" finished-at="2018-07-31T16:00:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copy_survey -->
       </class> <!-- surveys.Test_24_Copy_Survey -->
-      <class name="surveys.Test_19_Static_Survey_Link">
-        <test-method status="PASS" signature="static_survey_link()[pri:0, instance:surveys.Test_19_Static_Survey_Link@5f375618]" name="static_survey_link" duration-ms="8069" started-at="2018-07-19T12:06:28Z" finished-at="2018-07-19T12:06:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- static_survey_link -->
-      </class> <!-- surveys.Test_19_Static_Survey_Link -->
       <class name="surveys.Test_5_Create_DIGI_Channel">
-        <test-method status="PASS" signature="create_digi_channel()[pri:0, instance:surveys.Test_5_Create_DIGI_Channel@1810399e]" name="create_digi_channel" duration-ms="7744" started-at="2018-07-19T12:06:36Z" finished-at="2018-07-19T12:06:44Z">
+        <test-method status="PASS" signature="create_digi_channel()[pri:0, instance:surveys.Test_5_Create_DIGI_Channel@1810399e]" name="create_digi_channel" duration-ms="6839" started-at="2018-07-31T16:01:20Z" finished-at="2018-07-31T16:01:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_digi_channel -->
       </class> <!-- surveys.Test_5_Create_DIGI_Channel -->
+      <class name="surveys.Test_19_Static_Survey_Link">
+        <test-method status="PASS" signature="static_survey_link()[pri:0, instance:surveys.Test_19_Static_Survey_Link@5f375618]" name="static_survey_link" duration-ms="7018" started-at="2018-07-31T16:01:13Z" finished-at="2018-07-31T16:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- static_survey_link -->
+      </class> <!-- surveys.Test_19_Static_Survey_Link -->
       <class name="surveys.Test_7_Add_Question_SMS">
-        <test-method status="PASS" signature="add_questions_sms()[pri:0, instance:surveys.Test_7_Add_Question_SMS@66d2e7d9]" name="add_questions_sms" duration-ms="7413" started-at="2018-07-19T12:04:33Z" finished-at="2018-07-19T12:04:40Z">
+        <test-method status="PASS" signature="add_questions_sms()[pri:0, instance:surveys.Test_7_Add_Question_SMS@66d2e7d9]" name="add_questions_sms" duration-ms="7695" started-at="2018-07-31T15:59:18Z" finished-at="2018-07-31T15:59:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_questions_sms -->
       </class> <!-- surveys.Test_7_Add_Question_SMS -->
       <class name="cjm.Test_11_Delete_Survey_into_Touchpoint">
-        <test-method status="PASS" signature="test11()[pri:0, instance:cjm.Test_11_Delete_Survey_into_Touchpoint@3a82f6ef]" name="test11" duration-ms="35211" started-at="2018-07-19T12:08:03Z" finished-at="2018-07-19T12:08:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test11 -->
-      </class> <!-- cjm.Test_11_Delete_Survey_into_Touchpoint -->
-      <class name="surveys.Test_35_Delete_Question_DIGI">
-        <test-method status="PASS" signature="delete_question_digi()[pri:0, instance:surveys.Test_35_Delete_Question_DIGI@2344fc66]" name="delete_question_digi" duration-ms="7797" started-at="2018-07-19T12:03:38Z" finished-at="2018-07-19T12:03:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delete_question_digi -->
-      </class> <!-- surveys.Test_35_Delete_Question_DIGI -->
-      <class name="surveys.Test_9_Add_Question_DIGI">
-        <test-method status="PASS" signature="add_questions_digi()[pri:0, instance:surveys.Test_9_Add_Question_DIGI@6a2bcfcb]" name="add_questions_digi" duration-ms="7407" started-at="2018-07-19T12:04:51Z" finished-at="2018-07-19T12:04:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add_questions_digi -->
-      </class> <!-- surveys.Test_9_Add_Question_DIGI -->
-      <class name="surveys.Test_29_Response_Rate">
-        <test-method status="PASS" signature="response_rate()[pri:0, instance:surveys.Test_29_Response_Rate@23ceabc1]" name="response_rate" duration-ms="7837" started-at="2018-07-19T12:07:14Z" finished-at="2018-07-19T12:07:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- response_rate -->
-      </class> <!-- surveys.Test_29_Response_Rate -->
-      <class name="surveys.Test_32_Delete_Question_WEB">
-        <test-method status="PASS" signature="delete_question_web()[pri:0, instance:surveys.Test_32_Delete_Question_WEB@50c87b21]" name="delete_question_web" duration-ms="7678" started-at="2018-07-19T12:06:20Z" finished-at="2018-07-19T12:06:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delete_question_web -->
-      </class> <!-- surveys.Test_32_Delete_Question_WEB -->
-      <class name="surveys.Test_20_Remove_Questionnaire">
-        <test-method status="PASS" signature="remove_questionnaire()[pri:0, instance:surveys.Test_20_Remove_Questionnaire@2669b199]" name="remove_questionnaire" duration-ms="7811" started-at="2018-07-19T12:03:30Z" finished-at="2018-07-19T12:03:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- remove_questionnaire -->
-      </class> <!-- surveys.Test_20_Remove_Questionnaire -->
-      <class name="surveys.Test_11_Update_QuestionText_SMS">
-        <test-method status="PASS" signature="update_quetionText_sms()[pri:0, instance:surveys.Test_11_Update_QuestionText_SMS@6d8a00e3]" name="update_quetionText_sms" duration-ms="7393" started-at="2018-07-19T12:05:50Z" finished-at="2018-07-19T12:05:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- update_quetionText_sms -->
-      </class> <!-- surveys.Test_11_Update_QuestionText_SMS -->
-      <class name="cjm.Test_10_Add_Survey_to_Touchpoint">
-        <test-method status="PASS" signature="test10()[pri:0, instance:cjm.Test_10_Add_Survey_to_Touchpoint@6cc4c815]" name="test10" duration-ms="26644" started-at="2018-07-19T12:07:37Z" finished-at="2018-07-19T12:08:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test10 -->
-      </class> <!-- cjm.Test_10_Add_Survey_to_Touchpoint -->
-      <class name="cjm.Test_5_Delete_Default_CJM">
-        <test-method status="FAIL" signature="test5()[pri:0, instance:cjm.Test_5_Delete_Default_CJM@51efea79]" name="test5" duration-ms="5900" started-at="2018-07-19T12:09:44Z" finished-at="2018-07-19T12:09:50Z">
+        <test-method status="FAIL" signature="test11()[pri:0, instance:cjm.Test_11_Delete_Survey_into_Touchpoint@3a82f6ef]" name="test11" duration-ms="5443" started-at="2018-07-31T16:02:39Z" finished-at="2018-07-31T16:02:44Z">
           <exception class="com.codeborne.selenide.ex.ElementNotFound">
             <message>
               <![CDATA[Element not found {#username}
@@ -112,8 +64,214 @@ Expected: visible]]>
             <full-stacktrace>
               <![CDATA[Element not found {#username}
 Expected: visible
-Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002189913.4.png
-Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002189913.4.html
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052964107.1.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052964107.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Unable to locate element: #username
+at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
+at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:82)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:59)
+at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsVisible(WebElementSource.java:72)
+at com.codeborne.selenide.commands.SetValue.execute(SetValue.java:21)
+at com.codeborne.selenide.commands.SetValue.execute(SetValue.java:14)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:144)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:87)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:63)
+at com.sun.proxy.$Proxy3.setValue(Unknown Source)
+at enterprise.Enterprise.st_activate_login(Enterprise.java:24)
+at cjm.Test_11_Delete_Survey_into_Touchpoint.test11(Test_11_Delete_Survey_into_Touchpoint.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #username
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'rpas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12345, moz:profile: /tmp/rust_mozprofile.31iBbW..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f791ca42-8733-4e3e-b2da-11810fcf9161
+*** Element info: {Using=css selector, value=#username}
+at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:29)
+at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:56)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:44)
+... 44 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementNotFound -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+      </class> <!-- cjm.Test_11_Delete_Survey_into_Touchpoint -->
+      <class name="surveys.Test_35_Delete_Question_DIGI">
+        <test-method status="PASS" signature="delete_question_digi()[pri:0, instance:surveys.Test_35_Delete_Question_DIGI@2344fc66]" name="delete_question_digi" duration-ms="8118" started-at="2018-07-31T15:58:24Z" finished-at="2018-07-31T15:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_question_digi -->
+      </class> <!-- surveys.Test_35_Delete_Question_DIGI -->
+      <class name="surveys.Test_9_Add_Question_DIGI">
+        <test-method status="PASS" signature="add_questions_digi()[pri:0, instance:surveys.Test_9_Add_Question_DIGI@6a2bcfcb]" name="add_questions_digi" duration-ms="7621" started-at="2018-07-31T15:59:38Z" finished-at="2018-07-31T15:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_questions_digi -->
+      </class> <!-- surveys.Test_9_Add_Question_DIGI -->
+      <class name="surveys.Test_29_Response_Rate">
+        <test-method status="PASS" signature="response_rate()[pri:0, instance:surveys.Test_29_Response_Rate@23ceabc1]" name="response_rate" duration-ms="6523" started-at="2018-07-31T16:01:55Z" finished-at="2018-07-31T16:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- response_rate -->
+      </class> <!-- surveys.Test_29_Response_Rate -->
+      <class name="surveys.Test_32_Delete_Question_WEB">
+        <test-method status="PASS" signature="delete_question_web()[pri:0, instance:surveys.Test_32_Delete_Question_WEB@50c87b21]" name="delete_question_web" duration-ms="7321" started-at="2018-07-31T16:01:06Z" finished-at="2018-07-31T16:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_question_web -->
+      </class> <!-- surveys.Test_32_Delete_Question_WEB -->
+      <class name="surveys.Test_20_Remove_Questionnaire">
+        <test-method status="PASS" signature="remove_questionnaire()[pri:0, instance:surveys.Test_20_Remove_Questionnaire@2669b199]" name="remove_questionnaire" duration-ms="7980" started-at="2018-07-31T15:58:16Z" finished-at="2018-07-31T15:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_questionnaire -->
+      </class> <!-- surveys.Test_20_Remove_Questionnaire -->
+      <class name="cjm.Test_10_Add_Survey_to_Touchpoint">
+        <test-method status="FAIL" signature="test10()[pri:0, instance:cjm.Test_10_Add_Survey_to_Touchpoint@6cc4c815]" name="test10" duration-ms="23055" started-at="2018-07-31T16:02:16Z" finished-at="2018-07-31T16:02:39Z">
+          <exception class="com.codeborne.selenide.ex.ElementNotFound">
+            <message>
+              <![CDATA[Element not found {.toggle-panel-title.findBy(text 'new_touchpoint_cjm::31.07.2018_19:02')}
+Expected: visible]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element not found {.toggle-panel-title.findBy(text 'new_touchpoint_cjm::31.07.2018_19:02')}
+Expected: visible
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052959078.0.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052959078.0.html
+Timeout: 4 s.
+Caused by: Element not found {.toggle-panel-title.findBy(text 'new_touchpoint_cjm::31.07.2018_19:02')}
+Expected: text 'new_touchpoint_cjm::31.07.2018_19:02'
+Screenshot: null
+Timeout: 0 ms.
+at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
+at com.codeborne.selenide.impl.CollectionElementByCondition.createElementNotFoundError(CollectionElementByCondition.java:53)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:59)
+at com.codeborne.selenide.commands.Should.should(Should.java:35)
+at com.codeborne.selenide.commands.Should.execute(Should.java:29)
+at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:144)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:87)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:63)
+at com.sun.proxy.$Proxy3.shouldBe(Unknown Source)
+at cjm.Test_10_Add_Survey_to_Touchpoint.test10(Test_10_Add_Survey_to_Touchpoint.java:64)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: Element not found {.toggle-panel-title.findBy(text 'new_touchpoint_cjm::31.07.2018_19:02')}
+Expected: text 'new_touchpoint_cjm::31.07.2018_19:02'
+Screenshot: null
+Timeout: 0 ms.
+at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:39)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:44)
+... 43 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementNotFound -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+      </class> <!-- cjm.Test_10_Add_Survey_to_Touchpoint -->
+      <class name="surveys.Test_11_Update_QuestionText_SMS">
+        <test-method status="PASS" signature="update_quetionText_sms()[pri:0, instance:surveys.Test_11_Update_QuestionText_SMS@6d8a00e3]" name="update_quetionText_sms" duration-ms="7424" started-at="2018-07-31T16:00:38Z" finished-at="2018-07-31T16:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_quetionText_sms -->
+      </class> <!-- surveys.Test_11_Update_QuestionText_SMS -->
+      <class name="cjm.Test_5_Delete_Default_CJM">
+        <test-method status="FAIL" signature="test5()[pri:0, instance:cjm.Test_5_Delete_Default_CJM@51efea79]" name="test5" duration-ms="5382" started-at="2018-07-31T16:03:12Z" finished-at="2018-07-31T16:03:17Z">
+          <exception class="com.codeborne.selenide.ex.ElementNotFound">
+            <message>
+              <![CDATA[Element not found {#username}
+Expected: visible]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element not found {#username}
+Expected: visible
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052996945.7.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052996945.7.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: #username
 at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
@@ -168,8 +326,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'rpas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 18997, moz:profile: /tmp/rust_mozprofile.pD7is3..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 39345650-6f05-4a8d-87a2-af8d61aa7db4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12345, moz:profile: /tmp/rust_mozprofile.31iBbW..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f791ca42-8733-4e3e-b2da-11810fcf9161
 *** Element info: {Using=css selector, value=#username}
 at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -195,20 +353,8 @@ at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.
           </reporter-output>
         </test-method> <!-- test5 -->
       </class> <!-- cjm.Test_5_Delete_Default_CJM -->
-      <class name="surveys.Test_21_Search_by_Address">
-        <test-method status="PASS" signature="search_by_address()[pri:0, instance:surveys.Test_21_Search_by_Address@548b7f67]" name="search_by_address" duration-ms="7391" started-at="2018-07-19T12:05:58Z" finished-at="2018-07-19T12:06:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search_by_address -->
-      </class> <!-- surveys.Test_21_Search_by_Address -->
-      <class name="surveys.Test_17_Delete_QuestionText_DIGI">
-        <test-method status="PASS" signature="delete_questionText_digi()[pri:0, instance:surveys.Test_17_Delete_QuestionText_DIGI@48eff760]" name="delete_questionText_digi" duration-ms="7388" started-at="2018-07-19T12:05:21Z" finished-at="2018-07-19T12:05:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- delete_questionText_digi -->
-      </class> <!-- surveys.Test_17_Delete_QuestionText_DIGI -->
       <class name="cjm.Test_6_Create_Touchpoint">
-        <test-method status="FAIL" signature="test6()[pri:0, instance:cjm.Test_6_Create_Touchpoint@36d4b5c]" name="test6" duration-ms="5764" started-at="2018-07-19T12:09:33Z" finished-at="2018-07-19T12:09:38Z">
+        <test-method status="FAIL" signature="test6()[pri:0, instance:cjm.Test_6_Create_Touchpoint@36d4b5c]" name="test6" duration-ms="5555" started-at="2018-07-31T16:03:00Z" finished-at="2018-07-31T16:03:06Z">
           <exception class="com.codeborne.selenide.ex.ElementNotFound">
             <message>
               <![CDATA[Element not found {#username}
@@ -217,8 +363,8 @@ Expected: visible]]>
             <full-stacktrace>
               <![CDATA[Element not found {#username}
 Expected: visible
-Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002178010.2.png
-Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002178010.2.html
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052985857.5.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052985857.5.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: #username
 at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
@@ -273,8 +419,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'rpas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 18997, moz:profile: /tmp/rust_mozprofile.pD7is3..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 39345650-6f05-4a8d-87a2-af8d61aa7db4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12345, moz:profile: /tmp/rust_mozprofile.31iBbW..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f791ca42-8733-4e3e-b2da-11810fcf9161
 *** Element info: {Using=css selector, value=#username}
 at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -300,20 +446,32 @@ at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.
           </reporter-output>
         </test-method> <!-- test6 -->
       </class> <!-- cjm.Test_6_Create_Touchpoint -->
+      <class name="surveys.Test_21_Search_by_Address">
+        <test-method status="PASS" signature="search_by_address()[pri:0, instance:surveys.Test_21_Search_by_Address@548b7f67]" name="search_by_address" duration-ms="6791" started-at="2018-07-31T16:00:45Z" finished-at="2018-07-31T16:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_by_address -->
+      </class> <!-- surveys.Test_21_Search_by_Address -->
+      <class name="surveys.Test_17_Delete_QuestionText_DIGI">
+        <test-method status="PASS" signature="delete_questionText_digi()[pri:0, instance:surveys.Test_17_Delete_QuestionText_DIGI@48eff760]" name="delete_questionText_digi" duration-ms="7493" started-at="2018-07-31T16:00:09Z" finished-at="2018-07-31T16:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_questionText_digi -->
+      </class> <!-- surveys.Test_17_Delete_QuestionText_DIGI -->
       <class name="surveys.Test_34_Delete_Question_IVR">
-        <test-method status="PASS" signature="delete_question_ivr()[pri:0, instance:surveys.Test_34_Delete_Question_IVR@7ac7a4e4]" name="delete_question_ivr" duration-ms="7719" started-at="2018-07-19T12:06:05Z" finished-at="2018-07-19T12:06:13Z">
+        <test-method status="PASS" signature="delete_question_ivr()[pri:0, instance:surveys.Test_34_Delete_Question_IVR@7ac7a4e4]" name="delete_question_ivr" duration-ms="6705" started-at="2018-07-31T16:00:52Z" finished-at="2018-07-31T16:00:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_question_ivr -->
       </class> <!-- surveys.Test_34_Delete_Question_IVR -->
       <class name="surveys.Test_12_Update_QuestionText_IVR">
-        <test-method status="PASS" signature="update_questionText_ivr()[pri:0, instance:surveys.Test_12_Update_QuestionText_IVR@215be6bb]" name="update_questionText_ivr" duration-ms="7344" started-at="2018-07-19T12:06:51Z" finished-at="2018-07-19T12:06:59Z">
+        <test-method status="PASS" signature="update_questionText_ivr()[pri:0, instance:surveys.Test_12_Update_QuestionText_IVR@215be6bb]" name="update_questionText_ivr" duration-ms="7019" started-at="2018-07-31T16:01:34Z" finished-at="2018-07-31T16:01:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- update_questionText_ivr -->
       </class> <!-- surveys.Test_12_Update_QuestionText_IVR -->
       <class name="cjm.Test_1_Create_CJM">
-        <test-method status="FAIL" signature="test_1()[pri:0, instance:cjm.Test_1_Create_CJM@5034c75a]" name="test_1" duration-ms="5820" started-at="2018-07-19T12:09:50Z" finished-at="2018-07-19T12:09:56Z">
+        <test-method status="FAIL" signature="test_1()[pri:0, instance:cjm.Test_1_Create_CJM@5034c75a]" name="test_1" duration-ms="5553" started-at="2018-07-31T16:03:17Z" finished-at="2018-07-31T16:03:23Z">
           <exception class="com.codeborne.selenide.ex.ElementNotFound">
             <message>
               <![CDATA[Element not found {#username}
@@ -322,8 +480,8 @@ Expected: visible]]>
             <full-stacktrace>
               <![CDATA[Element not found {#username}
 Expected: visible
-Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002195679.5.png
-Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002195679.5.html
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533053002450.8.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533053002450.8.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: #username
 at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
@@ -378,8 +536,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'rpas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 18997, moz:profile: /tmp/rust_mozprofile.pD7is3..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 39345650-6f05-4a8d-87a2-af8d61aa7db4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12345, moz:profile: /tmp/rust_mozprofile.31iBbW..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f791ca42-8733-4e3e-b2da-11810fcf9161
 *** Element info: {Using=css selector, value=#username}
 at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -406,37 +564,37 @@ at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.
         </test-method> <!-- test_1 -->
       </class> <!-- cjm.Test_1_Create_CJM -->
       <class name="surveys.Test_27_Change_Status_IVR">
-        <test-method status="PASS" signature="change_status_ivr()[pri:0, instance:surveys.Test_27_Change_Status_IVR@32e6e9c3]" name="change_status_ivr" duration-ms="10535" started-at="2018-07-19T12:03:03Z" finished-at="2018-07-19T12:03:13Z">
+        <test-method status="PASS" signature="change_status_ivr()[pri:0, instance:surveys.Test_27_Change_Status_IVR@32e6e9c3]" name="change_status_ivr" duration-ms="11047" started-at="2018-07-31T15:57:48Z" finished-at="2018-07-31T15:57:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- change_status_ivr -->
       </class> <!-- surveys.Test_27_Change_Status_IVR -->
       <class name="surveys.Test_25_Change_Status_WEB">
-        <test-method status="PASS" signature="change_status_web()[pri:0, instance:surveys.Test_25_Change_Status_WEB@458ad742]" name="change_status_web" duration-ms="7917" started-at="2018-07-19T12:03:46Z" finished-at="2018-07-19T12:03:54Z">
+        <test-method status="PASS" signature="change_status_web()[pri:0, instance:surveys.Test_25_Change_Status_WEB@458ad742]" name="change_status_web" duration-ms="8060" started-at="2018-07-31T15:58:32Z" finished-at="2018-07-31T15:58:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- change_status_web -->
       </class> <!-- surveys.Test_25_Change_Status_WEB -->
       <class name="surveys.Test_14_Delete_QuestionText_WEB">
-        <test-method status="PASS" signature="delete_questionText_web()[pri:0, instance:surveys.Test_14_Delete_QuestionText_WEB@4de8b406]" name="delete_questionText_web" duration-ms="7260" started-at="2018-07-19T12:04:58Z" finished-at="2018-07-19T12:05:06Z">
+        <test-method status="PASS" signature="delete_questionText_web()[pri:0, instance:surveys.Test_14_Delete_QuestionText_WEB@4de8b406]" name="delete_questionText_web" duration-ms="8910" started-at="2018-07-31T15:59:45Z" finished-at="2018-07-31T15:59:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_questionText_web -->
       </class> <!-- surveys.Test_14_Delete_QuestionText_WEB -->
       <class name="surveys.Test_33_Delete_Question_SMS">
-        <test-method status="PASS" signature="delete_question_sms()[pri:0, instance:surveys.Test_33_Delete_Question_SMS@56f4468b]" name="delete_question_sms" duration-ms="7325" started-at="2018-07-19T12:07:29Z" finished-at="2018-07-19T12:07:37Z">
+        <test-method status="PASS" signature="delete_question_sms()[pri:0, instance:surveys.Test_33_Delete_Question_SMS@56f4468b]" name="delete_question_sms" duration-ms="7250" started-at="2018-07-31T16:02:08Z" finished-at="2018-07-31T16:02:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_question_sms -->
       </class> <!-- surveys.Test_33_Delete_Question_SMS -->
       <class name="surveys.Test_23_Send_Invitation">
-        <test-method status="PASS" signature="send_invitation()[pri:0, instance:surveys.Test_23_Send_Invitation@5ae9a829]" name="send_invitation" duration-ms="7484" started-at="2018-07-19T12:05:43Z" finished-at="2018-07-19T12:05:50Z">
+        <test-method status="PASS" signature="send_invitation()[pri:0, instance:surveys.Test_23_Send_Invitation@5ae9a829]" name="send_invitation" duration-ms="6875" started-at="2018-07-31T16:00:31Z" finished-at="2018-07-31T16:00:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- send_invitation -->
       </class> <!-- surveys.Test_23_Send_Invitation -->
       <class name="cjm.Test_9_Delete_Touchpoint">
-        <test-method status="FAIL" signature="test9()[pri:0, instance:cjm.Test_9_Delete_Touchpoint@7f9a81e8]" name="test9" duration-ms="5736" started-at="2018-07-19T12:10:08Z" finished-at="2018-07-19T12:10:14Z">
+        <test-method status="FAIL" signature="test9()[pri:0, instance:cjm.Test_9_Delete_Touchpoint@7f9a81e8]" name="test9" duration-ms="5466" started-at="2018-07-31T16:03:33Z" finished-at="2018-07-31T16:03:39Z">
           <exception class="com.codeborne.selenide.ex.ElementNotFound">
             <message>
               <![CDATA[Element not found {#username}
@@ -445,8 +603,8 @@ Expected: visible]]>
             <full-stacktrace>
               <![CDATA[Element not found {#username}
 Expected: visible
-Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002213094.8.png
-Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002213094.8.html
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533053018783.11.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533053018783.11.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: #username
 at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
@@ -501,8 +659,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'rpas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 18997, moz:profile: /tmp/rust_mozprofile.pD7is3..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 39345650-6f05-4a8d-87a2-af8d61aa7db4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12345, moz:profile: /tmp/rust_mozprofile.31iBbW..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f791ca42-8733-4e3e-b2da-11810fcf9161
 *** Element info: {Using=css selector, value=#username}
 at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -529,45 +687,43 @@ at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.
         </test-method> <!-- test9 -->
       </class> <!-- cjm.Test_9_Delete_Touchpoint -->
       <class name="surveys.Test_3_Create_SMS_Channel">
-        <test-method status="PASS" signature="create_sms_channel()[pri:0, instance:surveys.Test_3_Create_SMS_Channel@5dfcfece]" name="create_sms_channel" duration-ms="7986" started-at="2018-07-19T12:07:06Z" finished-at="2018-07-19T12:07:14Z">
+        <test-method status="PASS" signature="create_sms_channel()[pri:0, instance:surveys.Test_3_Create_SMS_Channel@5dfcfece]" name="create_sms_channel" duration-ms="6852" started-at="2018-07-31T16:01:48Z" finished-at="2018-07-31T16:01:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_sms_channel -->
       </class> <!-- surveys.Test_3_Create_SMS_Channel -->
       <class name="surveys.Test_8_Add_Question_IVR">
-        <test-method status="PASS" signature="add_questions_ivr()[pri:0, instance:surveys.Test_8_Add_Question_IVR@7921b0a2]" name="add_questions_ivr" duration-ms="7620" started-at="2018-07-19T12:04:17Z" finished-at="2018-07-19T12:04:25Z">
+        <test-method status="PASS" signature="add_questions_ivr()[pri:0, instance:surveys.Test_8_Add_Question_IVR@7921b0a2]" name="add_questions_ivr" duration-ms="7679" started-at="2018-07-31T15:59:03Z" finished-at="2018-07-31T15:59:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_questions_ivr -->
       </class> <!-- surveys.Test_8_Add_Question_IVR -->
       <class name="cjm.Test_7_Read_Touchpoint">
-        <test-method status="FAIL" signature="test7()[pri:0, instance:cjm.Test_7_Read_Touchpoint@643b1d11]" name="test7" duration-ms="26091" started-at="2018-07-19T12:09:01Z" finished-at="2018-07-19T12:09:27Z">
+        <test-method status="FAIL" signature="test7()[pri:0, instance:cjm.Test_7_Read_Touchpoint@643b1d11]" name="test7" duration-ms="5545" started-at="2018-07-31T16:02:50Z" finished-at="2018-07-31T16:02:55Z">
           <exception class="com.codeborne.selenide.ex.ElementNotFound">
             <message>
-              <![CDATA[Element not found {.toggle-panel-title.findBy(text 'new_touchpoint_cjm::19.07.2018_15:09')}
+              <![CDATA[Element not found {#username}
 Expected: visible]]>
             </message>
             <full-stacktrace>
-              <![CDATA[Element not found {.toggle-panel-title.findBy(text 'new_touchpoint_cjm::19.07.2018_15:09')}
+              <![CDATA[Element not found {#username}
 Expected: visible
-Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002167196.0.png
-Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002167196.0.html
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052974905.3.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052974905.3.html
 Timeout: 4 s.
-Caused by: Element not found {.toggle-panel-title.findBy(text 'new_touchpoint_cjm::19.07.2018_15:09')}
-Expected: text 'new_touchpoint_cjm::19.07.2018_15:09'
-Screenshot: null
-Timeout: 0 ms.
+Caused by: NoSuchElementException: Unable to locate element: #username
 at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
-at com.codeborne.selenide.impl.CollectionElementByCondition.createElementNotFoundError(CollectionElementByCondition.java:53)
+at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:82)
 at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:59)
-at com.codeborne.selenide.commands.Should.should(Should.java:35)
-at com.codeborne.selenide.commands.Should.execute(Should.java:29)
-at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsVisible(WebElementSource.java:72)
+at com.codeborne.selenide.commands.SetValue.execute(SetValue.java:21)
+at com.codeborne.selenide.commands.SetValue.execute(SetValue.java:14)
 at com.codeborne.selenide.commands.Commands.execute(Commands.java:144)
 at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:87)
 at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:63)
-at com.sun.proxy.$Proxy3.shouldBe(Unknown Source)
-at cjm.Test_7_Read_Touchpoint.test7(Test_7_Read_Touchpoint.java:65)
+at com.sun.proxy.$Proxy3.setValue(Unknown Source)
+at enterprise.Enterprise.st_activate_login(Enterprise.java:24)
+at cjm.Test_7_Read_Touchpoint.test7(Test_7_Read_Touchpoint.java:23)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -603,13 +759,31 @@ at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(Provide
 at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: Element not found {.toggle-panel-title.findBy(text 'new_touchpoint_cjm::19.07.2018_15:09')}
-Expected: text 'new_touchpoint_cjm::19.07.2018_15:09'
-Screenshot: null
-Timeout: 0 ms.
-at com.codeborne.selenide.impl.CollectionElementByCondition.getWebElement(CollectionElementByCondition.java:39)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #username
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'rpas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12345, moz:profile: /tmp/rust_mozprofile.31iBbW..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f791ca42-8733-4e3e-b2da-11810fcf9161
+*** Element info: {Using=css selector, value=#username}
+at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:29)
+at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:56)
 at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:44)
-... 43 more
+... 44 more
 ]]>
             </full-stacktrace>
           </exception> <!-- com.codeborne.selenide.ex.ElementNotFound -->
@@ -618,7 +792,7 @@ at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.
         </test-method> <!-- test7 -->
       </class> <!-- cjm.Test_7_Read_Touchpoint -->
       <class name="cjm.Test_12_Dashboard_link_Touchpoint">
-        <test-method status="FAIL" signature="test12()[pri:0, instance:cjm.Test_12_Dashboard_link_Touchpoint@2ef5e5e3]" name="test12" duration-ms="5777" started-at="2018-07-19T12:09:27Z" finished-at="2018-07-19T12:09:33Z">
+        <test-method status="FAIL" signature="test12()[pri:0, instance:cjm.Test_12_Dashboard_link_Touchpoint@2ef5e5e3]" name="test12" duration-ms="5386" started-at="2018-07-31T16:02:55Z" finished-at="2018-07-31T16:03:00Z">
           <exception class="com.codeborne.selenide.ex.ElementNotFound">
             <message>
               <![CDATA[Element not found {#username}
@@ -627,8 +801,8 @@ Expected: visible]]>
             <full-stacktrace>
               <![CDATA[Element not found {#username}
 Expected: visible
-Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002172327.1.png
-Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002172327.1.html
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052980418.4.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052980418.4.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: #username
 at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
@@ -683,8 +857,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'rpas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 18997, moz:profile: /tmp/rust_mozprofile.pD7is3..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 39345650-6f05-4a8d-87a2-af8d61aa7db4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12345, moz:profile: /tmp/rust_mozprofile.31iBbW..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f791ca42-8733-4e3e-b2da-11810fcf9161
 *** Element info: {Using=css selector, value=#username}
 at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -711,43 +885,37 @@ at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.
         </test-method> <!-- test12 -->
       </class> <!-- cjm.Test_12_Dashboard_link_Touchpoint -->
       <class name="surveys.Test_1_Create_Survey">
-        <test-method status="PASS" signature="createSurvey()[pri:0, instance:surveys.Test_1_Create_Survey@1efbd816]" name="createSurvey" duration-ms="10816" started-at="2018-07-19T12:04:40Z" finished-at="2018-07-19T12:04:51Z">
+        <test-method status="PASS" signature="createSurvey()[pri:0, instance:surveys.Test_1_Create_Survey@1efbd816]" name="createSurvey" duration-ms="11624" started-at="2018-07-31T15:59:26Z" finished-at="2018-07-31T15:59:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createSurvey -->
       </class> <!-- surveys.Test_1_Create_Survey -->
       <class name="surveys.Test_15_Delete_QuestionText_SMS">
-        <test-method status="PASS" signature="delete_questionText_sms()[pri:0, instance:surveys.Test_15_Delete_QuestionText_SMS@6d78f375]" name="delete_questionText_sms" duration-ms="7407" started-at="2018-07-19T12:06:13Z" finished-at="2018-07-19T12:06:20Z">
+        <test-method status="PASS" signature="delete_questionText_sms()[pri:0, instance:surveys.Test_15_Delete_QuestionText_SMS@6d78f375]" name="delete_questionText_sms" duration-ms="7194" started-at="2018-07-31T16:00:59Z" finished-at="2018-07-31T16:01:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_questionText_sms -->
       </class> <!-- surveys.Test_15_Delete_QuestionText_SMS -->
       <class name="surveys.Test_30_Reordering_Survey">
-        <test-method status="PASS" signature="reordering_survey()[pri:0, instance:surveys.Test_30_Reordering_Survey@174d20a]" name="reordering_survey" duration-ms="8092" started-at="2018-07-19T12:04:25Z" finished-at="2018-07-19T12:04:33Z">
+        <test-method status="PASS" signature="reordering_survey()[pri:0, instance:surveys.Test_30_Reordering_Survey@174d20a]" name="reordering_survey" duration-ms="7748" started-at="2018-07-31T15:59:10Z" finished-at="2018-07-31T15:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reordering_survey -->
       </class> <!-- surveys.Test_30_Reordering_Survey -->
       <class name="surveys.Test_16_Delete_QuestionText_IVR">
-        <test-method status="PASS" signature="delete_questionText_ivr()[pri:0, instance:surveys.Test_16_Delete_QuestionText_IVR@6574b225]" name="delete_questionText_ivr" duration-ms="8003" started-at="2018-07-19T12:03:22Z" finished-at="2018-07-19T12:03:30Z">
+        <test-method status="PASS" signature="delete_questionText_ivr()[pri:0, instance:surveys.Test_16_Delete_QuestionText_IVR@6574b225]" name="delete_questionText_ivr" duration-ms="9108" started-at="2018-07-31T15:58:07Z" finished-at="2018-07-31T15:58:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_questionText_ivr -->
       </class> <!-- surveys.Test_16_Delete_QuestionText_IVR -->
       <class name="surveys.Test_2_Create_WEB_Channel">
-        <test-method status="PASS" signature="create_web_channel()[pri:0, instance:surveys.Test_2_Create_WEB_Channel@5afa04c]" name="create_web_channel" duration-ms="7629" started-at="2018-07-19T12:03:54Z" finished-at="2018-07-19T12:04:01Z">
+        <test-method status="PASS" signature="create_web_channel()[pri:0, instance:surveys.Test_2_Create_WEB_Channel@5afa04c]" name="create_web_channel" duration-ms="7703" started-at="2018-07-31T15:58:40Z" finished-at="2018-07-31T15:58:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_web_channel -->
       </class> <!-- surveys.Test_2_Create_WEB_Channel -->
       <class name="cjm.Test_3_Update_CJM">
-        <test-method status="PASS" signature="test_3()[pri:0, instance:cjm.Test_3_Update_CJM@100fc185]" name="test_3" duration-ms="22255" started-at="2018-07-19T12:08:39Z" finished-at="2018-07-19T12:09:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_3 -->
-      </class> <!-- cjm.Test_3_Update_CJM -->
-      <class name="cjm.Test_8_Update_Touchpoint">
-        <test-method status="FAIL" signature="test8()[pri:0, instance:cjm.Test_8_Update_Touchpoint@396a51ab]" name="test8" duration-ms="5768" started-at="2018-07-19T12:09:56Z" finished-at="2018-07-19T12:10:02Z">
+        <test-method status="FAIL" signature="test_3()[pri:0, instance:cjm.Test_3_Update_CJM@100fc185]" name="test_3" duration-ms="5339" started-at="2018-07-31T16:02:44Z" finished-at="2018-07-31T16:02:50Z">
           <exception class="com.codeborne.selenide.ex.ElementNotFound">
             <message>
               <![CDATA[Element not found {#username}
@@ -756,8 +924,101 @@ Expected: visible]]>
             <full-stacktrace>
               <![CDATA[Element not found {#username}
 Expected: visible
-Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002201501.6.png
-Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002201501.6.html
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052969477.2.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052969477.2.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Unable to locate element: #username
+at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
+at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:82)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:59)
+at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsVisible(WebElementSource.java:72)
+at com.codeborne.selenide.commands.SetValue.execute(SetValue.java:21)
+at com.codeborne.selenide.commands.SetValue.execute(SetValue.java:14)
+at com.codeborne.selenide.commands.Commands.execute(Commands.java:144)
+at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:87)
+at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:63)
+at com.sun.proxy.$Proxy3.setValue(Unknown Source)
+at enterprise.Enterprise.st_activate_login(Enterprise.java:24)
+at cjm.Test_3_Update_CJM.test_3(Test_3_Update_CJM.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #username
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'rpas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12345, moz:profile: /tmp/rust_mozprofile.31iBbW..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f791ca42-8733-4e3e-b2da-11810fcf9161
+*** Element info: {Using=css selector, value=#username}
+at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:29)
+at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:56)
+at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:44)
+... 44 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementNotFound -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3 -->
+      </class> <!-- cjm.Test_3_Update_CJM -->
+      <class name="cjm.Test_8_Update_Touchpoint">
+        <test-method status="FAIL" signature="test8()[pri:0, instance:cjm.Test_8_Update_Touchpoint@396a51ab]" name="test8" duration-ms="5360" started-at="2018-07-31T16:03:23Z" finished-at="2018-07-31T16:03:28Z">
+          <exception class="com.codeborne.selenide.ex.ElementNotFound">
+            <message>
+              <![CDATA[Element not found {#username}
+Expected: visible]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element not found {#username}
+Expected: visible
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533053007865.9.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533053007865.9.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: #username
 at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
@@ -812,8 +1073,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'rpas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 18997, moz:profile: /tmp/rust_mozprofile.pD7is3..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 39345650-6f05-4a8d-87a2-af8d61aa7db4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12345, moz:profile: /tmp/rust_mozprofile.31iBbW..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f791ca42-8733-4e3e-b2da-11810fcf9161
 *** Element info: {Using=css selector, value=#username}
 at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -840,19 +1101,13 @@ at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.
         </test-method> <!-- test8 -->
       </class> <!-- cjm.Test_8_Update_Touchpoint -->
       <class name="surveys.Test_22_Search_by_CustomerId">
-        <test-method status="PASS" signature="search_by_customerId()[pri:0, instance:surveys.Test_22_Search_by_CustomerId@6a024a67]" name="search_by_customerId" duration-ms="7982" started-at="2018-07-19T12:04:09Z" finished-at="2018-07-19T12:04:17Z">
+        <test-method status="PASS" signature="search_by_customerId()[pri:0, instance:surveys.Test_22_Search_by_CustomerId@6a024a67]" name="search_by_customerId" duration-ms="7684" started-at="2018-07-31T15:58:55Z" finished-at="2018-07-31T15:59:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search_by_customerId -->
       </class> <!-- surveys.Test_22_Search_by_CustomerId -->
-      <class name="surveys.Test_31_Reordering_Questions">
-        <test-method status="PASS" signature="reordering_questions()[pri:0, instance:surveys.Test_31_Reordering_Questions@32d992b2]" name="reordering_questions" duration-ms="7873" started-at="2018-07-19T12:06:44Z" finished-at="2018-07-19T12:06:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reordering_questions -->
-      </class> <!-- surveys.Test_31_Reordering_Questions -->
       <class name="cjm.Test_2_Read_CJM">
-        <test-method status="FAIL" signature="test_2()[pri:0, instance:cjm.Test_2_Read_CJM@51081592]" name="test_2" duration-ms="5853" started-at="2018-07-19T12:10:02Z" finished-at="2018-07-19T12:10:08Z">
+        <test-method status="FAIL" signature="test_2()[pri:0, instance:cjm.Test_2_Read_CJM@51081592]" name="test_2" duration-ms="5449" started-at="2018-07-31T16:03:28Z" finished-at="2018-07-31T16:03:33Z">
           <exception class="com.codeborne.selenide.ex.ElementNotFound">
             <message>
               <![CDATA[Element not found {#username}
@@ -861,8 +1116,8 @@ Expected: visible]]>
             <full-stacktrace>
               <![CDATA[Element not found {#username}
 Expected: visible
-Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002207305.7.png
-Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002207305.7.html
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533053013296.10.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533053013296.10.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: #username
 at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
@@ -917,8 +1172,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'rpas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 18997, moz:profile: /tmp/rust_mozprofile.pD7is3..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 39345650-6f05-4a8d-87a2-af8d61aa7db4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12345, moz:profile: /tmp/rust_mozprofile.31iBbW..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f791ca42-8733-4e3e-b2da-11810fcf9161
 *** Element info: {Using=css selector, value=#username}
 at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -944,8 +1199,26 @@ at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.
           </reporter-output>
         </test-method> <!-- test_2 -->
       </class> <!-- cjm.Test_2_Read_CJM -->
+      <class name="surveys.Test_31_Reordering_Questions">
+        <test-method status="PASS" signature="reordering_questions()[pri:0, instance:surveys.Test_31_Reordering_Questions@32d992b2]" name="reordering_questions" duration-ms="6929" started-at="2018-07-31T16:01:27Z" finished-at="2018-07-31T16:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reordering_questions -->
+      </class> <!-- surveys.Test_31_Reordering_Questions -->
+      <class name="surveys.Test_6_Add_Question_WEB">
+        <test-method status="PASS" signature="add_questions_web()[pri:0, instance:surveys.Test_6_Add_Question_WEB@7c0e2abd]" name="add_questions_web" duration-ms="7612" started-at="2018-07-31T16:00:01Z" finished-at="2018-07-31T16:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_questions_web -->
+      </class> <!-- surveys.Test_6_Add_Question_WEB -->
+      <class name="surveys.Test_28_Change_Status_DIGI">
+        <test-method status="PASS" signature="change_status_digi()[pri:0, instance:surveys.Test_28_Change_Status_DIGI@5056dfcb]" name="change_status_digi" duration-ms="7951" started-at="2018-07-31T15:57:59Z" finished-at="2018-07-31T15:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change_status_digi -->
+      </class> <!-- surveys.Test_28_Change_Status_DIGI -->
       <class name="cjm.Test_4_Delete_CJM">
-        <test-method status="FAIL" signature="test_4()[pri:0, instance:cjm.Test_4_Delete_CJM@6d00a15d]" name="test_4" duration-ms="5925" started-at="2018-07-19T12:09:38Z" finished-at="2018-07-19T12:09:44Z">
+        <test-method status="FAIL" signature="test_4()[pri:0, instance:cjm.Test_4_Delete_CJM@6d00a15d]" name="test_4" duration-ms="5579" started-at="2018-07-31T16:03:06Z" finished-at="2018-07-31T16:03:12Z">
           <exception class="com.codeborne.selenide.ex.ElementNotFound">
             <message>
               <![CDATA[Element not found {#username}
@@ -954,8 +1227,8 @@ Expected: visible]]>
             <full-stacktrace>
               <![CDATA[Element not found {#username}
 Expected: visible
-Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002183984.3.png
-Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1532002183984.3.html
+Screenshot: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052991520.6.png
+Page source: file:/home/tester/IdeaProjects/SandSIV/build/reports/tests/1533052991520.6.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: Unable to locate element: #username
 at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:31)
@@ -1010,8 +1283,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'rpas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 18997, moz:profile: /tmp/rust_mozprofile.pD7is3..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 39345650-6f05-4a8d-87a2-af8d61aa7db4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12345, moz:profile: /tmp/rust_mozprofile.31iBbW..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f791ca42-8733-4e3e-b2da-11810fcf9161
 *** Element info: {Using=css selector, value=#username}
 at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1037,20 +1310,8 @@ at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.
           </reporter-output>
         </test-method> <!-- test_4 -->
       </class> <!-- cjm.Test_4_Delete_CJM -->
-      <class name="surveys.Test_6_Add_Question_WEB">
-        <test-method status="PASS" signature="add_questions_web()[pri:0, instance:surveys.Test_6_Add_Question_WEB@7c0e2abd]" name="add_questions_web" duration-ms="7396" started-at="2018-07-19T12:05:13Z" finished-at="2018-07-19T12:05:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add_questions_web -->
-      </class> <!-- surveys.Test_6_Add_Question_WEB -->
-      <class name="surveys.Test_28_Change_Status_DIGI">
-        <test-method status="PASS" signature="change_status_digi()[pri:0, instance:surveys.Test_28_Change_Status_DIGI@5056dfcb]" name="change_status_digi" duration-ms="9262" started-at="2018-07-19T12:03:13Z" finished-at="2018-07-19T12:03:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- change_status_digi -->
-      </class> <!-- surveys.Test_28_Change_Status_DIGI -->
       <class name="surveys.Test_4_Create_IVR_Channel">
-        <test-method status="PASS" signature="create_ivr_channel()[pri:0, instance:surveys.Test_4_Create_IVR_Channel@6ea12c19]" name="create_ivr_channel" duration-ms="7660" started-at="2018-07-19T12:04:01Z" finished-at="2018-07-19T12:04:09Z">
+        <test-method status="PASS" signature="create_ivr_channel()[pri:0, instance:surveys.Test_4_Create_IVR_Channel@6ea12c19]" name="create_ivr_channel" duration-ms="7475" started-at="2018-07-31T15:58:48Z" finished-at="2018-07-31T15:58:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_ivr_channel -->

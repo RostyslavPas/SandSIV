@@ -23,6 +23,11 @@
           <include name="test_4"/>
         </methods>
       </class> <!-- cjm.Test_4_Delete_CJM -->
+      <class name="cjm.Test_11_Delete_Survey_into_Touchpoint">
+        <methods>
+          <include name="test11"/>
+        </methods>
+      </class> <!-- cjm.Test_11_Delete_Survey_into_Touchpoint -->
       <class name="cjm.Test_1_Create_CJM">
         <methods>
           <include name="test_1"/>
@@ -33,11 +38,21 @@
           <include name="test7"/>
         </methods>
       </class> <!-- cjm.Test_7_Read_Touchpoint -->
+      <class name="cjm.Test_3_Update_CJM">
+        <methods>
+          <include name="test_3"/>
+        </methods>
+      </class> <!-- cjm.Test_3_Update_CJM -->
       <class name="cjm.Test_12_Dashboard_link_Touchpoint">
         <methods>
           <include name="test12"/>
         </methods>
       </class> <!-- cjm.Test_12_Dashboard_link_Touchpoint -->
+      <class name="cjm.Test_10_Add_Survey_to_Touchpoint">
+        <methods>
+          <include name="test10"/>
+        </methods>
+      </class> <!-- cjm.Test_10_Add_Survey_to_Touchpoint -->
       <class name="cjm.Test_5_Delete_Default_CJM">
         <methods>
           <include name="test5"/>
