@@ -108,6 +108,11 @@ public class _CJM {
 
     //Touchpoints elements
 
+    SelenideElement close_manage_cjm_windows = $(".close");
+
+    ElementsCollection cjm_list = $$(".delete-button-project-modal.pointer.badge.pull-right");
+    String defaulCustomerJourney = "Default Customer Jourvey";
+
     String add_touchpoint_text_alert = "Touchpoint was added successfully!";
     String update_touchpoint_text_alert = "Touchpoint was updated successfully!";
 
@@ -120,6 +125,8 @@ public class _CJM {
     SelenideElement touchpointNameSelector = $("#touchpoint_name");
     SelenideElement touchPointDropdownCjm = $(".Select-placeholder");
     SelenideElement touchPointSelectCjm = $(By.xpath(".//*[@id='react-select-3--option-0']"));
+
+
     SelenideElement dashboardLink = $("#touchpoint_url");
     String touch_poit_url = "http://rostislav-pas.besaba.com/";
 
