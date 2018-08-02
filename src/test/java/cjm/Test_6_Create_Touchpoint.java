@@ -1,6 +1,5 @@
 package cjm;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 import java.text.SimpleDateFormat;
@@ -79,9 +78,7 @@ public class Test_6_Create_Touchpoint {
 
             //select a cjm in popup
 
-            cjm.touchPointDropdownCjm.click();
-
-            $(".Select-control").sendKeys(Keys.ARROW_UP);
+            cjm.touchpointNameSelector.sendKeys(Keys.TAB, Keys.ARROW_UP, Keys.ARROW_UP, Keys.ENTER);
 
             //fill in the field Dashboard Link
 
