@@ -78,7 +78,11 @@ public class Test_6_Create_Touchpoint {
 
             //select a cjm in popup
 
-            cjm.touchpointNameSelector.sendKeys(Keys.TAB, Keys.ARROW_UP, Keys.ARROW_UP, Keys.ENTER);
+            cjm.touchpointNameSelector.sendKeys(
+                    Keys.TAB,
+                    Keys.ARROW_UP,
+                    Keys.ARROW_UP,
+                    Keys.ENTER);
 
             //fill in the field Dashboard Link
 
