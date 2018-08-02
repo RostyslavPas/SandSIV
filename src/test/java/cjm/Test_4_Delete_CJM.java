@@ -1,7 +1,6 @@
 package cjm;
 
 import org.testng.annotations.Test;
-import static com.codeborne.selenide.Selenide.*;
 
 public class Test_4_Delete_CJM {
 
@@ -17,7 +16,6 @@ public class Test_4_Delete_CJM {
         cjm.open_cjm();
         cjm.update_cjm();
         cjm.delete_cjm();
-        close();
 
     }
 

@@ -4,10 +4,13 @@ import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import enterprise.Enterprise;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
+import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
@@ -80,6 +83,197 @@ public class _CJM {
         _CJM cjm = new _CJM();
         sleep(2000);
         cjm.cjmDefaultBtnDelete.shouldNotBe(visible);
+    }
+    public void create_touchpoint(){
+        _CJM cjm = new _CJM();
+        //count_of_list_customer_journey
+
+        cjm.manage_customer_journey.click();
+        sleep(2000);
+        cjm.cjm_list.findBy(
+                text(cjm.defaulCustomerJourney));
+        ArrayList list = new ArrayList(
+                cjm.cjm_list);
+        System.out.println(list.size());
+        int list_cjm = list.size();
+        cjm.close_manage_cjm_windows.click();
+        sleep(3000);
+
+        //create new touchpoint
+
+        cjm.addTouchpointBtn.get(1).click();
+        cjm.modalTitleAddTouchPoint.shouldHave(
+                text(cjm.title_touch_point));
+
+        sleep(3000);
+
+        Date date = new Date();
+        SimpleDateFormat format =
+                new SimpleDateFormat(cjm.dateFormat);
+
+        String touch_point_text_name =
+                cjm.defaultToucpointName + format.format(date);
+        cjm.touchpointNameSelector.setValue(
+                touch_point_text_name);
+
+        //select a cjm in popup
+
+        if (list_cjm == 1){
+            cjm.touchPointDropdownCjm.click();
+            cjm.touchPointSelectCjm.click();
+        }
+        if (list_cjm > 1){
+            cjm.touchpointNameSelector.sendKeys(
+                    Keys.TAB,
+                    Keys.ARROW_UP,
+                    Keys.ARROW_UP,
+                    Keys.ENTER);
+        }
+
+        //fill in the field Dashboard Link
+
+        cjm.dashboardLink.setValue(
+                cjm.touch_poit_url);
+        cjm.addBtn.click();
+        cjm.alertSelector.shouldHave(
+                text(cjm.add_touchpoint_text_alert));
+    }
+    public void read_touchpoint(){
+        _CJM cjm = new _CJM();
+        //read touch point, show settings
+
+        Date date = new Date();
+        SimpleDateFormat format =
+                new SimpleDateFormat(cjm.dateFormat);
+        String touch_point_text_name =
+                cjm.defaultToucpointName + format.format(date);
+
+
+        cjm.listTouchPoint.findBy(
+                text(touch_point_text_name)).shouldBe(visible);
+        ArrayList<com.codeborne.selenide.SelenideElement> list1 =
+                new ArrayList<com.codeborne.selenide.SelenideElement>(
+                        cjm.listTouchPoint);
+        System.out.println(list1.size());
+
+        int list_touchpoint = list1.size();
+
+        cjm.settingTouchPoint.get(list_touchpoint-2).click();
+        cjm.modalTitleAddTouchPoint.shouldHave(
+                text(cjm.edit_touch_point_text));
+
+        sleep(3000);
+
+        cjm.touchPointBtnCancel.shouldBe(exist);
+        cjm.touchPointBtnRemove.shouldBe(visible);
+        cjm.addBtn.shouldBe(visible);
+    }
+    public void update_touchpoint(){
+        //update touch point
+        _CJM cjm = new _CJM();
+        cjm.touchpointNameSelector.setValue(
+                cjm.new_name_touchpoint_after_update);
+        cjm.touchPointBtnSave.get(1).click();
+        cjm.alertSelector.shouldHave(
+                text(cjm.update_touchpoint_text_alert));
+    }
+    public void delete_touchpoint(){
+
+        _CJM cjm = new _CJM();
+        //delete TouchPoint
+
+        Date date = new Date();
+        SimpleDateFormat format =
+                new SimpleDateFormat(cjm.dateFormat);
+        String touch_point_text_name =
+                cjm.defaultToucpointName + format.format(date);
+
+        cjm.touchPointBtnRemove.click();
+        sleep(3000);
+        switchTo().alert().accept();
+        sleep(3000);
+
+        cjm.listTouchPoint.findBy(
+                text(touch_point_text_name)).shouldNot(visible);
+    }
+    public void assign_surveys(){
+
+        _CJM cjm = new _CJM();
+        //assign surveys
+
+        Date date = new Date();
+        SimpleDateFormat format =
+                new SimpleDateFormat(cjm.dateFormat);
+        String touch_point_text_name =
+                cjm.defaultToucpointName + format.format(date);
+
+        cjm.listTouchPoint.findBy(
+                text(touch_point_text_name)).shouldBe(visible);
+        ArrayList<SelenideElement> list =
+                new ArrayList<com.codeborne.selenide.SelenideElement>(
+                        cjm.listTouchPoint);
+        System.out.println(list.size());
+
+        int list_touchpoint = list.size();
+
+        cjm.assignSurveys.get(list_touchpoint-2).click();
+        sleep(3000);
+
+        cjm.modalTitleAddTouchPoint.shouldHave(
+                text(cjm.add_survey_into_touchpoint));
+
+        cjm.selectPlaceholderAddSurvey.click();
+        cjm.selectSurvey.click();
+        cjm.saveSurveyIntoTouchpointBtn.click();
+
+        cjm.alertSelector.shouldHave(
+                text(cjm.add_survey_into_touchpoint_text_alert));
+    }
+    public void delete_survey_into_touchpoint(){
+
+        _CJM cjm = new _CJM();
+        //assign surveys
+
+        Date date = new Date();
+        SimpleDateFormat format =
+                new SimpleDateFormat(cjm.dateFormat);
+        String touch_point_text_name =
+                cjm.defaultToucpointName + format.format(date);
+
+        cjm.listTouchPoint.findBy(
+                text(touch_point_text_name)).shouldBe(visible);
+        ArrayList<SelenideElement> list =
+                new ArrayList<com.codeborne.selenide.SelenideElement>(
+                        cjm.listTouchPoint);
+        System.out.println(list.size());
+
+        int list_touchpoint = list.size();
+
+        cjm.assignSurveys.get(list_touchpoint-2).click();
+        sleep(3000);
+
+        cjm.modalTitleAddTouchPoint.shouldHave(
+                text(cjm.add_survey_into_touchpoint));
+
+        cjm.selectPlaceholderAddSurvey.click();
+        cjm.selectSurvey.click();
+        cjm.saveSurveyIntoTouchpointBtn.click();
+
+        cjm.alertSelector.shouldHave(
+                text(cjm.add_survey_into_touchpoint_text_alert));
+
+
+
+        cjm.assignSurveys.get(list_touchpoint-2).click();
+        sleep(3000);
+
+//        $(".Select-placeholder").sendKeys(Keys.TAB, Keys.TAB, Keys.BACK_SPACE);
+
+        cjm.deleteSurveyIntoTouchpoint.click();
+        cjm.saveSurveyIntoTouchpointBtn.click();
+
+        cjm.alertSelector.shouldHave(
+                text(cjm.delete_survey_into_touchpoint_text_alert));
     }
 
     String pageCJM = "https://gcp-st-activate.sandsiv.com/feedback/customer-journey";

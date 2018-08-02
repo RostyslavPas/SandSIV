@@ -1,7 +1,6 @@
 package cjm;
 
 import org.testng.annotations.Test;
-import static com.codeborne.selenide.Selenide.*;
 
 public class Test_2_Read_CJM {
 
@@ -14,7 +13,6 @@ public class Test_2_Read_CJM {
         cjm.open_cjm_page();
         cjm.create_cjm();
         cjm.display_cjm();
-        close();
 
     }
 }
