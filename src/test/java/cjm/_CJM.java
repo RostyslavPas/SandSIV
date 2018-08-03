@@ -5,11 +5,9 @@ import com.codeborne.selenide.SelenideElement;
 import enterprise.Enterprise;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-
 import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
@@ -94,7 +92,7 @@ public class _CJM {
                 text(cjm.defaulCustomerJourney));
         ArrayList list = new ArrayList(
                 cjm.cjm_list);
-        System.out.println(list.size());
+        System.out.println("Count of Customer Journey " + list.size());
         int list_cjm = list.size();
         cjm.close_manage_cjm_windows.click();
         sleep(3000);
@@ -154,7 +152,7 @@ public class _CJM {
         ArrayList<com.codeborne.selenide.SelenideElement> list1 =
                 new ArrayList<com.codeborne.selenide.SelenideElement>(
                         cjm.listTouchPoint);
-        System.out.println(list1.size());
+        System.out.println("Count of Touchpoint " + list1.size());
 
         int list_touchpoint = list1.size();
 
@@ -212,7 +210,7 @@ public class _CJM {
         ArrayList<SelenideElement> list =
                 new ArrayList<com.codeborne.selenide.SelenideElement>(
                         cjm.listTouchPoint);
-        System.out.println(list.size());
+        System.out.println("Count of Touchpoint " + list.size());
 
         int list_touchpoint = list.size();
 
@@ -245,7 +243,7 @@ public class _CJM {
         ArrayList<SelenideElement> list =
                 new ArrayList<com.codeborne.selenide.SelenideElement>(
                         cjm.listTouchPoint);
-        System.out.println(list.size());
+        System.out.println("Count of Touchpoint " + list.size());
 
         int list_touchpoint = list.size();
 
@@ -254,20 +252,6 @@ public class _CJM {
 
         cjm.modalTitleAddTouchPoint.shouldHave(
                 text(cjm.add_survey_into_touchpoint));
-
-        cjm.selectPlaceholderAddSurvey.click();
-        cjm.selectSurvey.click();
-        cjm.saveSurveyIntoTouchpointBtn.click();
-
-        cjm.alertSelector.shouldHave(
-                text(cjm.add_survey_into_touchpoint_text_alert));
-
-
-
-        cjm.assignSurveys.get(list_touchpoint-2).click();
-        sleep(3000);
-
-//        $(".Select-placeholder").sendKeys(Keys.TAB, Keys.TAB, Keys.BACK_SPACE);
 
         cjm.deleteSurveyIntoTouchpoint.click();
         cjm.saveSurveyIntoTouchpointBtn.click();
