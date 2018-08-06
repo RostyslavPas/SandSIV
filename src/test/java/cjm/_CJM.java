@@ -13,6 +13,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.sleep;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class _CJM {
     public void login_page(){
@@ -258,6 +259,32 @@ public class _CJM {
 
         cjm.alertSelector.shouldHave(
                 text(cjm.delete_survey_into_touchpoint_text_alert));
+    }
+    public void dashboard_link(){
+        _CJM cjm = new _CJM();
+
+        Date date = new Date();
+        SimpleDateFormat format =
+                new SimpleDateFormat(cjm.dateFormat);
+
+        String touch_point_text_name =
+                cjm.defaultToucpointName + format.format(date);
+
+        cjm.listTouchPoint.findBy(
+                text(touch_point_text_name)).shouldBe(visible);
+        ArrayList<SelenideElement> list =
+                new ArrayList<com.codeborne.selenide.SelenideElement>(
+                        cjm.listTouchPoint);
+
+        System.out.println(list.size());
+
+        int i = list.size();
+
+        cjm.dboardLink.get(i-2).click();
+        sleep(3000);
+
+        System.out.println(title());
+        assertEquals(cjm.textTitle, title());
     }
 
     String pageCJM = "https://gcp-st-activate.sandsiv.com/feedback/customer-journey";
